@@ -1,0 +1,21 @@
+@import "config";
+
+html,
+body {
+	padding: 0;
+	margin: 0;
+	font-family: $ff-inter;
+}
+
+a {
+	color: inherit;
+	text-decoration: none;
+}
+
+*,
+*::before,
+*::after {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
