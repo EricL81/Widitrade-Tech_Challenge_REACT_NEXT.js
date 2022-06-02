@@ -66,17 +66,27 @@
             box-shadow: none;
   }
   .container .main .logoWrapper {
-    padding: 120px 219px 0 218px;
+    margin: 0;
+    position: relative;
+    top: 260px;
   }
   .container .photoWrapper {
-    width: 804px;
+    width: 803px;
     height: 1024px;
     display: block;
+    background: url(../public/photo.png), linear-gradient(148.41deg, rgba(34, 162, 162, 0.76) 0%, rgba(70, 131, 223, 0.526195) 51.16%, rgba(116, 166, 224, 0.5) 70.82%, rgba(116, 224, 193, 0.58) 100%);
+    -webkit-box-shadow: 20px 0px 80px rgba(53, 55, 68, 0.16);
+            box-shadow: 20px 0px 80px rgba(53, 55, 68, 0.16);
+    position: relative;
+  }
+  .container .photoWrapper::after {
+    content: "";
+    width: 803px;
+    height: 1024px;
     background: linear-gradient(114.44deg, #624af2 0%, #50ddc3 100%);
     opacity: 0.5;
     position: absolute;
+    top: 0;
     right: 0;
-    -webkit-box-shadow: 20px 0px 80px rgba(53, 55, 68, 0.16);
-            box-shadow: 20px 0px 80px rgba(53, 55, 68, 0.16);
   }
 }

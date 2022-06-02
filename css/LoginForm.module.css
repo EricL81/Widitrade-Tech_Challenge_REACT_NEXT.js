@@ -167,6 +167,7 @@
   font-size: 12px;
   line-height: 18px;
   color: #6e7191;
+  margin-top: 8.5px;
 }
 
 .loginForm button {
@@ -211,7 +212,6 @@
     width: 356px;
     height: 285px;
     margin: 0 auto;
-    position: relative;
-    top: 224px;
+    top: 396px;
   }
 }
