@@ -38,7 +38,6 @@
   width: 24px;
   height: 24px;
   cursor: pointer;
-  opacity: 0.8;
 }
 
 .loginForm .inputGroup label {
@@ -195,4 +194,24 @@
   color: #ffffff;
   font-size: 1rem;
   line-height: 24px;
+}
+
+@media only screen and (min-width: 744px) {
+  .loginForm {
+    width: 408px;
+    height: 285px;
+    margin: 0 auto;
+    position: relative;
+    top: 142px;
+  }
+}
+
+@media only screen and (min-width: 1440px) {
+  .loginForm {
+    width: 356px;
+    height: 285px;
+    margin: 0 auto;
+    position: relative;
+    top: 224px;
+  }
 }

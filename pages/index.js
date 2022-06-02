@@ -2,6 +2,7 @@ import Head from "next/head";
 import Image from "next/image";
 import styles from "../styles/Home.module.scss";
 import logo from "../public/logo.png";
+import photo from "../public/photo.png";
 import LoginForm from "../components/LoginForm";
 
 export default function Home() {
@@ -16,9 +17,14 @@ export default function Home() {
 			</Head>
 
 			<main className={styles.main}>
-				<Image src={logo} alt="Widitrade Logo" width={115} height={82} />
+				<div className={styles.logoWrapper}>
+					<Image src={logo} alt="Widitrade Logo" width={115} height={82} />
+				</div>
 				<LoginForm />
 			</main>
+			<div className={styles.photoWrapper}>
+				<Image src={photo} alt="Widitrade Photo" layout="responsive" width={803} height={1024} />
+			</div>
 		</div>
 	);
 }
