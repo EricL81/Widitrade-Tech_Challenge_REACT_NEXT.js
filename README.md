@@ -1,3 +1,5 @@
+## Live web URL: [https://widitrade-tech-challenge-react-next-js.vercel.app/]
+
 ## Welcome! 👋
 
 Thanks for checking out this front-end coding challenge.
@@ -19,6 +21,8 @@ The user / website should be able to:
 - Be redirected to a new page if the Login is valid, after Login form is submitted.
 
 For this challenge I chose to use React and Next.js to practice on React components, state management and form validation and discover the Next.js framework which I have never used before.
+
+I also deployed this app on Vercel for the first time.
 
 ## Preview Snapshots
 
