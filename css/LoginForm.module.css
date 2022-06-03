@@ -87,6 +87,7 @@
   caret-color: #4fc2c2;
   font-size: 1rem;
   color: #4e4b66;
+  background: #f8f8fc;
 }
 
 .loginForm .inputGroup input::-webkit-input-placeholder {
@@ -150,6 +151,7 @@
 
 .loginForm .inputGroup input:focus {
   outline: 2px solid #4fc2c2;
+  background: #ffffff;
 }
 
 .loginForm .inputGroup .error {
@@ -166,35 +168,8 @@
   font-weight: 400;
   font-size: 12px;
   line-height: 18px;
-  color: #6e7191;
+  color: #22a2a2;
   margin-top: 8.5px;
-}
-
-.loginForm button {
-  margin-top: 17px;
-  border: none;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  padding: 14px 42px;
-  gap: 14px;
-  background: #22a2a2;
-  border-radius: 60px;
-  font-family: "Inter", sans-serif;
-  font-weight: 700;
-  color: #ffffff;
-  font-size: 1rem;
-  line-height: 24px;
 }
 
 @media only screen and (min-width: 744px) {

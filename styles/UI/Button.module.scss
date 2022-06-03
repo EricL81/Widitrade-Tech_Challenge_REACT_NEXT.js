@@ -1,6 +1,6 @@
 @import "../config";
 
-.button {
+@mixin buttonDefault() {
 	border: none;
 	display: flex;
 	flex-direction: row;
@@ -16,12 +16,13 @@
 	&:hover {
 		background: $color-secondary;
 	}
+}
 
-	&.login {
-		margin-top: 17px;
-		font-size: 1rem;
-		line-height: 24px;
-		padding: 14px 42px;
-		gap: 14px;
-	}
+.login {
+	@include buttonDefault();
+	margin-top: 17px;
+	font-size: 1rem;
+	line-height: 24px;
+	padding: 14px 42px;
+	gap: 14px;
 }

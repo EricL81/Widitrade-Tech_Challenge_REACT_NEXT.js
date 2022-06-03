@@ -1,0 +1,32 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Mulish:wght@700&display=swap");
+.login {
+  border: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background: #22a2a2;
+  border-radius: 60px;
+  font-family: "Inter", sans-serif;
+  font-weight: 700;
+  color: #ffffff;
+  cursor: pointer;
+  margin-top: 17px;
+  font-size: 1rem;
+  line-height: 24px;
+  padding: 14px 42px;
+  gap: 14px;
+}
+
+.login:hover {
+  background: #1b8080;
+}

@@ -33,6 +33,7 @@
 @media only screen and (min-width: 744px) {
   .container {
     padding: 12rem 6rem;
+    background: #f8f8fc;
   }
   .container .main {
     padding: 0;
@@ -43,7 +44,7 @@
     border-radius: 32px;
   }
   .container .main .logoWrapper {
-    margin: 120px 219px 0 218px;
+    margin: 120px auto 0 auto;
   }
 }
 
