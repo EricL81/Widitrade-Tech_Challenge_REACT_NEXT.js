@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import classes from "./LoginForm.module.scss";
+import classes from "../styles/LoginForm.module.scss";
 import { useRouter } from "next/router";
 import Image from "next/image";
 import eye from "../public/eye.png";
