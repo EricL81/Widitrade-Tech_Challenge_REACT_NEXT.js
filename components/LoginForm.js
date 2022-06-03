@@ -1,8 +1,9 @@
 import React, { useState, useEffect } from "react";
-import classes from "../styles/LoginForm.module.scss";
+import styles from "../styles/LoginForm.module.scss";
 import { useRouter } from "next/router";
 import Image from "next/image";
 import eye from "../public/eye.png";
+import Button from "./UI/Button";
 
 const LoginForm = () => {
 	const initialValues = {
@@ -58,27 +59,29 @@ const LoginForm = () => {
 	}, [errors]);
 
 	return (
-		<form className={classes.loginForm} onSubmit={onSubmitHandler}>
-			<div className={classes.inputGroup}>
+		<form className={styles.loginForm} onSubmit={onSubmitHandler}>
+			<div className={styles.inputGroup}>
 				<label htmlFor="user">User</label>
 				<input type="text" id="user" name="user" onChange={onChangeHandler} placeholder="Tyson.Jakubowski@ya|" />
-				<div className={classes.error} style={{ display: errors.user ? "block" : "none" }}>
+				<div className={styles.error} style={{ display: errors.user ? "block" : "none" }}>
 					{errors.user}
 				</div>
 			</div>
-			<div className={classes.inputGroup}>
+			<div className={styles.inputGroup}>
 				<label htmlFor="password">Password</label>
 
 				<input type={passwordIsVisible ? "text" : "password"} id="password" name="password" onChange={onChangeHandler} placeholder="Enter your password" />
-				<div className={classes.imageWrapper}>
+				<div className={styles.imageWrapper}>
 					<Image src={eye} alt="eye" width={24} height={24} onClick={passwordHandler} />
 				</div>
 
-				<div className={classes.error} style={{ display: errors.password ? "block" : "none" }}>
+				<div className={styles.error} style={{ display: errors.password ? "block" : "none" }}>
 					{errors.password}
 				</div>
 			</div>
-			<button type="submit">Login</button>
+			<Button type="submit" classCss="login">
+				Login
+			</Button>
 		</form>
 	);
 };

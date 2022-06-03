@@ -84,24 +84,6 @@
 			margin-top: 8.5px;
 		}
 	}
-
-	button {
-		margin-top: 17px;
-		border: none;
-		display: flex;
-		flex-direction: row;
-		justify-content: center;
-		align-items: center;
-		padding: 14px 42px;
-		gap: 14px;
-		background: $color-primary;
-		border-radius: 60px;
-		font-family: $ff-inter;
-		font-weight: 700;
-		color: #ffffff;
-		font-size: 1rem;
-		line-height: 24px;
-	}
 }
 
 @media only screen and (min-width: 744px) {
