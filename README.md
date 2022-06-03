@@ -24,15 +24,15 @@ For this challenge I chose to use React and Next.js to practice on React compone
 
 ### Mobile Layout: 375x812px
 
-(public/Mobile.png)
+![mobile layout](./public/Mobile.png)
 
 ### Mobile Layout: 744x1133px
 
-(public/Tablet.png)
+![tablet layout](./public/Tablet.png)
 
 ### Mobile Layout: 1440x1024px
 
-(public/Desktop.png)
+![desktop layout](./public/Desktop.png)
 
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
