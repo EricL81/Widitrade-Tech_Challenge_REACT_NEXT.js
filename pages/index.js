@@ -12,7 +12,7 @@ export default function Home() {
 				<meta name="description" content="Widitrade Tech challenge for a Junior Frontend Developer position" />
 				<meta name="author" content="Eric Lehmann" />
 				<meta name="keywords" content="tech challenge, widitrade, junior, frontend developer, login" />
-				<link rel="icon" href="/favicon.ico" />
+				<link rel="icon" href="/logo.png" />
 			</Head>
 
 			<main className={styles.main}>
