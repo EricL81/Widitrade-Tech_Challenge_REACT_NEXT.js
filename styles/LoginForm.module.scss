@@ -54,6 +54,7 @@
 			caret-color: $color-accent;
 			font-size: 1rem;
 			color: $color-body;
+			background: $color-background;
 
 			&::placeholder {
 				font-style: normal;
@@ -68,6 +69,7 @@
 
 			&:focus {
 				outline: 2px solid $color-accent;
+				background: #ffffff;
 			}
 		}
 
