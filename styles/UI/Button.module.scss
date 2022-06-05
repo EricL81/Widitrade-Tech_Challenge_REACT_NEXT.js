@@ -1,3 +1,23 @@
+@import '../config';
+
+@mixin buttonDefault() {
+	border: none;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	background: $color-primary;
+	border-radius: 60px;
+	font-family: $ff-inter;
+	font-weight: 700;
+	color: #ffffff;
+	cursor: pointer;
+
+	&:hover {
+		background: $color-secondary;
+	}
+}
+
 .login {
 	@include buttonDefault();
 	margin-top: 17px;
