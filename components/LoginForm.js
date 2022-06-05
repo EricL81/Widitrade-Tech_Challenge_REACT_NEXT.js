@@ -25,7 +25,7 @@ const LoginForm = () => {
 	};
 
 	const validate = (values) => {
-		const errors = [];
+		const errors = {};
 
 		if (!values.user) {
 			errors.user = "User cannot be empty";
