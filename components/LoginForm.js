@@ -48,7 +48,7 @@ const LoginForm = () => {
 		setIsSubmitted(true);
 	};
 
-	const passwordHandler = () => {
+	const togglePasswordIsVisible = () => {
 		setPasswordIsVisible(!passwordIsVisible);
 	};
 
@@ -72,7 +72,7 @@ const LoginForm = () => {
 
 				<input type={passwordIsVisible ? 'text' : 'password'} id='password' name='password' onChange={onChangeHandler} placeholder='Enter your password' />
 				<div className={styles.imageWrapper}>
-					<Image src={eye} alt='eye' width={24} height={24} onClick={passwordHandler} />
+					<Image src={eye} alt='eye' width={24} height={24} onClick={togglePasswordIsVisible} />
 				</div>
 
 				<div className={styles.error} style={{ display: errors.password ? 'block' : 'none' }}>
